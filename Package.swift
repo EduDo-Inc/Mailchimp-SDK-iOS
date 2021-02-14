@@ -2,6 +2,9 @@
 import PackageDescription
 let package = Package(
     name: "MailchimpSDK",
+    platforms: [
+        .iOS(.v11)
+    ],
     products: [
         .library(
             name: "MailchimpSDK",
